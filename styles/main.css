@@ -1,11 +1,34 @@
-.titulo{
+body{
+    text-align: center;
+    background-color: lightgrey;
+}
 
+.titulo{
+    text-decoration: underline;
+    font-family: engravers mt;
 }
 
 .imagen{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: halcon;
+    animation-duration: 6s; 
+    animation-iteration-count: infinite;
+}
 
+@keyframes halcon{
+    0% {left: 0;}
+    33% {left: 400px;}
+    66% {left: -400px;}
+    100% {left: 0;}
 }
 
 .texto{
+    text-shadow: 2px 2px 5px burlywood;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(212, 207, 137);
+    padding: 20px;
     
 }
